@@ -12,7 +12,7 @@ import fee from "./images/fee-structure.png";
 import ok from "./images/ok.png";
 import profile from "./images/profile.png";
 import downld from "./images/download-new.png";
-import banner1 from "./images/banner1.jpg";
+import banner1 from "./images/banner-1.jpg";
 
 import "./CarouselPage.css";
 
