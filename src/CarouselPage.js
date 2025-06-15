@@ -13,6 +13,7 @@ import fee from "./images/fee-structure.png";
 import ok from "./images/ok.png";
 import profile from "./images/profile.png";
 import downld from "./images/download-new.png";
+import banner1 from "./images/banner1.jpg";
 
 import "./CarouselPage.css";
 
@@ -25,7 +26,7 @@ function CarouselPage() {
             <img
               style={{ height: "60vh" }}
               className="d-block w-100"
-              src={imgcds2}
+              src={banner1}
               alt="First slide"
             />
             <Carousel.Caption>
