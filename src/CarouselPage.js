@@ -3,7 +3,6 @@ import Carousel from "react-bootstrap/Carousel";
 import img1 from "./images/img1.jpg";
 import img2 from "./images/img2.jpg";
 import img3 from "./images/img3.jpg";
-import imgcds2 from "./images/cds-img2.jpg";
 import imgsection2 from "./images/img-section-2.png";
 import download from "./images/download-icon.png";
 import feedback from "./images/feedback.png";
