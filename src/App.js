@@ -8,6 +8,7 @@ import Contact from '../src/components/Contact';
 import CarouselPage from '../src/CarouselPage';
 import CardPage from '../src/CardPage';
 import Home from '../src/Home';
+import Carouselslide from './Carouselslide';
 
 /*import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -28,6 +29,7 @@ function App() {
           <Route path='/' element={<CarouselPage/>}></Route>
           <Route path='/' element={<Home/>}></Route>
         <Route path='/card' element={<CardPage/>}></Route>
+        <Route path='/carouselslide' element={<Carouselslide/>}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -1,8 +1,6 @@
 import React from "react";
-import Carousel from "react-bootstrap/Carousel";
-import img1 from "./images/img1.jpg";
-import img2 from "./images/img2.jpg";
-import img3 from "./images/img3.jpg";
+import TestimonialSlider from './TestimonialSlider';
+import FAQ from './faq';
 import imgsection2 from "./images/img-section-2.png";
 import download from "./images/download-icon.png";
 import feedback from "./images/feedback.png";
@@ -12,7 +10,7 @@ import fee from "./images/fee-structure.png";
 import ok from "./images/ok.png";
 import profile from "./images/profile.png";
 import downld from "./images/download-new.png";
-import banner1 from "./images/banner-1.jpg";
+import phoneimg from "./images/img-phn.jpg";
 
 import "./CarouselPage.css";
 
@@ -20,50 +18,11 @@ function CarouselPage() {
   return (
     <div>
       <div className="bg-container">
-        <Carousel>
-          <Carousel.Item>
-            <img
-              style={{ height: "60vh" }}
-              className="d-block w-100"
-              src={banner1}
-              alt="First slide"
-            />
-            <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Redefining CAPF & CDS Preparation with Hybrid Learning! </p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              style={{ height: "60vh" }}
-              className="d-block w-100"
-              src={img2}
-              alt="Second slide"
-            />
-
-            <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Redefining CAPF & CDS Preparation with Hybrid Learning! </p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              style={{ height: "60vh" }}
-              className="d-block w-100"
-              src={img3}
-              alt="Third slide"
-            />
-
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>Redefining CAPF & CDS Preparation with Hybrid Learning!</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
+        
         <div className="">
-          <div className="mt-5 mb-5 container">
+          <div className="mb-5 container">
             <div className="row ">
-              <div className="col-md-7  mb-5">
+              <div className="col-md-7  mb-5 mt-5 ">
                 <h1 className="text-head fs-40 lh-48 fw-600 text-color-2 text-lg-start text-center">
                   Lakshya – UPSC CAPF AC Foundation Course 2026{" "}
                 </h1>
@@ -93,7 +52,7 @@ function CarouselPage() {
                   
                 </div>
               </div>
-              <div className="col-md-5 mb-5 course-img">
+              <div className="col-md-5 mb-5 mt-5  course-img">
                 <img
                   className="img-container"
                   src={imgsection2}
@@ -256,7 +215,30 @@ function CarouselPage() {
       <h2>Fee structure of this program</h2>
       <div className="fee-container">
         <div className="left">
-          <img className="h-100" src={fee} alt="image of fee structure" />
+          <div className="cohort text-center">
+            <h3>UPCS CAPF AC Foundation Online Batch</h3>
+          </div>
+
+          <div className="discount">
+            <span className="discount-text">
+              Total Offline Course Fee:
+            </span>
+          </div>
+
+          <div className="pricing">
+            <div className="old-price">₹75,000/-</div>
+            <div className="new-price">
+              ₹55,000/- <span className="blue-badge">Flat ₹20,000 OFF</span>
+            </div>
+          </div>
+
+          <ul className="features">
+            <li className="d-flex align-items-start"><img src={ok} /> Batch Starting Date:  October, 2025</li>
+            <li className="d-flex align-items-start"><img src={ok} /> Venue: GTB Nagar, New Delhi</li>
+            <li className="d-flex align-items-start"><img src={ok} /> Offer Expire on midnight of : June 2025</li>
+          </ul>
+
+         <div className="d-flex justify-content-center"> <button className="apply-button">Apply Now</button></div>
         </div>
 
         <div className="right">
@@ -288,46 +270,44 @@ function CarouselPage() {
       </div>
     </div>
 
-    <div className=" container testimonial-section">
-      <div className="left-content">
-        <h2>Leading SEOs are Loving Rank Math!</h2>
-        <p>Do not miss this golden opportunity to improve your on-page SEO</p>
 
-        <div className="rating-box">
-          <div className="stars">
-            {Array(5).fill().map((_, index) => (
-              <span key={index} className="star">★</span>
-            ))}
-          </div>
-          <div className="rating-text">
-            <strong>4.9 Overall Satisfaction Rating!</strong>
-            <p className="review-count">Based on 7148 Reviews</p>
-          </div>
+    <div>
+      <TestimonialSlider />
+    </div>
+
+    <div>
+      <FAQ />
+    </div>
+
+     <div className="container">
+      <h2>Why Join CAPF AC Foundation Course by Us?</h2>
+      <p>The digital marketing industry is growing at a fast pace. This field has become a booming career today and the demand for skilled online marketers will increase all the more in the coming years.</p>
+      <p>If you develop the essential skills, you can make the most out of this growing field and make a great career. At WsCube Tech, we offer the best online digital marketing course in India with certificate. Throughout the years, we have understood the expectations of the learners and created the curriculum accordingly. This makes us the best platform in India for digital marketing course online</p>
+      <p>Whether you are a college learner, recent graduate, job seeker, existing digital marketer, freelancer, business owner, or someone looking to grow in this field, then our strategic online course on digital marketing is for you</p>
+      <p>With this course, you can become a Digital Marketing Manager, SEO Expert, PPC Specialist, Content Marketer, YouTube Manager, Social Media Manager, or even start your own agency.</p>    
+    
+    </div>
+    
+    <div className="container fee-structure">
+      <h2>APP Section</h2>
+      <div className="fee-container">
+        <div className="left-cont col-md-6 p-4">
+          <h3 className="mt-4">Get the learning app</h3>
+          <p className="mt-4">Download lessions and learn anytime, anywhere with the worship academy app</p>
+          <div className="col-md-12 col-lg-12 col-12 app-icon mb-3 gap-2 mt-5 justify-content-center">
+                            <img className='app-icon-w' src='https://cdnstatic.nextias.com/assets/images/icons/googleplay-download.svg' />
+                            
+                            <img className='app-icon-w' src='https://cdnstatic.nextias.com/assets/images/icons/appstore-download.svg' />
+                            </div>
         </div>
-      </div>
-
-      <div className="right-content">
-        <div className="testimonial-card">
-          <p className="testimonial-text">
-            “Rank Math is seriously THE BEST SEO plugin that I ever installed and tried out in my 6 years of Blogging! It is hands-down one of the most mind-blowing, help...”
-          </p>
-          <div className="profile">
-            <img src={profile} alt="Ryan Robinson" />
-            <div>
-              <strong>Ryan Robinson</strong>
-              <p>Marketing Consultant, SEO-Writer, Worked with LinkedIn, Google, Adobe</p>
-              <p className="website">RYRob.com</p>
-            </div>
-          </div>
-
-          <div className="dots">
-            {[...Array(7)].map((_, idx) => (
-              <span key={idx} className={`dot ${idx === 5 ? 'active' : ''}`}></span>
-            ))}
-          </div>
+        <div className="right-cont col-md-6 p-4">
+          <img className="w-100" src={phoneimg} />
         </div>
+        
       </div>
     </div>
+
+    
 
     <div className="container demo-container mt-5 mb-5">
       <div className="demo-left">
@@ -355,8 +335,52 @@ function CarouselPage() {
         </div>
       </div>
     </div>
+    
     </div>
   );
 }
 
 export default CarouselPage;
+
+
+/*<Carousel>
+          <Carousel.Item>
+            <img
+              style={{ height: "60vh" }}
+              className="d-block w-100"
+              src={banner1}
+              alt="First slide"
+            />
+            <Carousel.Caption>
+              <h3>First slide label</h3>
+              <p>Redefining CAPF & CDS Preparation with Hybrid Learning! </p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              style={{ height: "60vh" }}
+              className="d-block w-100"
+              src={img2}
+              alt="Second slide"
+            />
+
+            <Carousel.Caption>
+              <h3>Second slide label</h3>
+              <p>Redefining CAPF & CDS Preparation with Hybrid Learning! </p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              style={{ height: "60vh" }}
+              className="d-block w-100"
+              src={img3}
+              alt="Third slide"
+            />
+
+            <Carousel.Caption>
+              <h3>Third slide label</h3>
+              <p>Redefining CAPF & CDS Preparation with Hybrid Learning!</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
+        */
