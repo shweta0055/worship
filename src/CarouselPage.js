@@ -6,11 +6,10 @@ import download from "./images/download-icon.png";
 import feedback from "./images/feedback.png";
 import training from "./images/training.png";
 import cancel from "./images/cancel.png";
-import fee from "./images/fee-structure.png";
 import ok from "./images/ok.png";
-import profile from "./images/profile.png";
 import downld from "./images/download-new.png";
 import phoneimg from "./images/img-phn.jpg";
+import mobile from './images/mobile-img.png'
 
 import "./CarouselPage.css";
 
@@ -211,10 +210,10 @@ function CarouselPage() {
 
     
 
-    <div className="container fee-structure">
-      <h2>Fee structure of this program</h2>
-      <div className="fee-container">
-        <div className="left">
+    <div className="container fee-structure mt-5 mb-5">
+      <h2>Batch Details</h2>
+      <div className="d-flex row gap-3 justify-content-center">
+        <div className=" fee-container left">
           <div className="cohort text-center">
             <h3>UPCS CAPF AC Foundation Online Batch</h3>
           </div>
@@ -226,9 +225,9 @@ function CarouselPage() {
           </div>
 
           <div className="pricing">
-            <div className="old-price">₹75,000/-</div>
+            
             <div className="new-price">
-              ₹55,000/- <span className="blue-badge">Flat ₹20,000 OFF</span>
+              ₹55,000/- <span className="old-price">₹75,000/-</span><span className="blue-badge">Flat ₹20,000 OFF</span>
             </div>
           </div>
 
@@ -241,7 +240,7 @@ function CarouselPage() {
          <div className="d-flex justify-content-center"> <button className="apply-button">Apply Now</button></div>
         </div>
 
-        <div className="right">
+        <div className="fee-container right">
           <div className="cohort text-center">
             <h3>UPCS CAPF AC Foundation Offline Batch</h3>
           </div>
@@ -253,10 +252,12 @@ function CarouselPage() {
           </div>
 
           <div className="pricing">
-            <div className="old-price">₹75,000/-</div>
             <div className="new-price">
-              ₹55,000/- <span className="blue-badge">Flat ₹20,000 OFF</span>
+              ₹55,000/- <span className="old-price">₹75,000/-</span><span className="blue-badge">Flat ₹20,000 OFF</span>
             </div>
+            
+            
+            
           </div>
 
           <ul className="features">
@@ -270,16 +271,7 @@ function CarouselPage() {
       </div>
     </div>
 
-
-    <div>
-      <TestimonialSlider />
-    </div>
-
-    <div>
-      <FAQ />
-    </div>
-
-     <div className="container">
+    <div className="container mt-5">
       <h2>Why Join CAPF AC Foundation Course by Us?</h2>
       <p>The digital marketing industry is growing at a fast pace. This field has become a booming career today and the demand for skilled online marketers will increase all the more in the coming years.</p>
       <p>If you develop the essential skills, you can make the most out of this growing field and make a great career. At WsCube Tech, we offer the best online digital marketing course in India with certificate. Throughout the years, we have understood the expectations of the learners and created the curriculum accordingly. This makes us the best platform in India for digital marketing course online</p>
@@ -290,7 +282,7 @@ function CarouselPage() {
     
     <div className="container fee-structure">
       <h2>APP Section</h2>
-      <div className="fee-container">
+      <div className="app-container">
         <div className="left-cont col-md-6 p-4">
           <h3 className="mt-4">Get the learning app</h3>
           <p className="mt-4">Download lessions and learn anytime, anywhere with the worship academy app</p>
@@ -301,40 +293,23 @@ function CarouselPage() {
                             </div>
         </div>
         <div className="right-cont col-md-6 p-4">
-          <img className="w-100" src={phoneimg} />
+          <img className="" src={mobile} />
         </div>
         
       </div>
     </div>
+    
+    <div>
+      <TestimonialSlider />
+    </div>
+
+    <div>
+      <FAQ />
+    </div>
 
     
-
-    <div className="container demo-container mt-5 mb-5">
-      <div className="demo-left">
-        <h2 style={{color:'#fff'}}>Still Confused? Want to know more?</h2>
-        <div className="input-group">
-          <div className="phone-input">
-            <span role="img" aria-label="India Flag">🇮🇳</span> +91
-          </div>
-          <button className="demo-btn">Book Demo Now</button>
-        </div>
-        <p className="demo-text">
-          Secure your spot quickly—seats are filling fast! Don’t miss out—enroll now and take the first step towards transforming your career!
-        </p>
-      </div>
-      <div className="demo-right">
-        <p className="hire-text">WORSHIP ACADEMY GRADUATES HAVE BEEN HIRED BY</p>
-        <div className="logo-box-grid">
-          {[
-            "Meta", "vodafone", "Google", "amazon", "Microsoft", "Walmart",
-            "verizon", "IBM", "YouTube", "TATA", "SAMSUNG", "Uber",
-            "accenture", "FedEx", "TikTok"
-          ].map((brand, i) => (
-            <div key={i} className="logo-box">{brand}</div>
-          ))}
-        </div>
-      </div>
-    </div>
+    
+  
     
     </div>
   );
@@ -383,4 +358,30 @@ export default CarouselPage;
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
+        <div className="container demo-container mt-5 mb-5">
+      <div className="demo-left">
+        <h2 style={{color:'#fff'}}>Still Confused? Want to know more?</h2>
+        <div className="input-group">
+          <div className="phone-input">
+            <span role="img" aria-label="India Flag">🇮🇳</span> +91
+          </div>
+          <button className="demo-btn">Book Demo Now</button>
+        </div>
+        <p className="demo-text">
+          Secure your spot quickly—seats are filling fast! Don’t miss out—enroll now and take the first step towards transforming your career!
+        </p>
+      </div>
+      <div className="demo-right">
+        <p className="hire-text">WORSHIP ACADEMY GRADUATES HAVE BEEN HIRED BY</p>
+        <div className="logo-box-grid">
+          {[
+            "Meta", "vodafone", "Google", "amazon", "Microsoft", "Walmart",
+            "verizon", "IBM", "YouTube", "TATA", "SAMSUNG", "Uber",
+            "accenture", "FedEx", "TikTok"
+          ].map((brand, i) => (
+            <div key={i} className="logo-box">{brand}</div>
+          ))}
+        </div>
+      </div>
+    </div>
         */

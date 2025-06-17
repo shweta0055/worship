@@ -14,13 +14,6 @@
   color: #111;
 }
 
-.faq-subtext {
-  text-align: center;
-  color: #666;
-  margin-bottom: 2rem;
-  font-size: 0.95rem;
-}
-
 .faq-item {
   border-bottom: 1px solid #ddd;
   padding: 1rem 0;
@@ -28,9 +21,7 @@
   transition: background 0.3s ease;
 }
 
-.faq-item:hover {
-  background-color: #f9f9f9;
-}
+
 
 .faq-question {
   display: flex;
@@ -91,3 +82,17 @@
     font-size: 1.2rem;
   }
 }
+
+
+/*
+
+.faq-subtext {
+  text-align: center;
+  color: #666;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+.faq-item:hover {
+  background-color: #f9f9f9;
+}  
+*/

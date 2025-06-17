@@ -28,28 +28,28 @@ const testimonials = [
   {
     text: "The Master Teachers helped me solve all my doubts, develop myself and be more confident. I will be eternally grateful to Vedantu.",
     name: "Priyanshu Gupta",
-    tag: "Student",
+    
     class: "Course Joined CDS, CAPF",
     image: imgp
   },
   {
     text: "The Master Teachers helped me solve all my doubts, develop myself and be more confident. I will be eternally grateful to Vedantu.",
     name: "Omkar Sinha",
-    tag: "Student",
+    
     class: "Course Joined CDS, CAPF",
     image: imgp
   },
   {
     text: "The Master Teachers helped me solve all my doubts, develop myself and be more confident. I will be eternally grateful to Vedantu.",
     name: "Pushpraj Poonia",
-    tag: "Student",
+    
     class: "Course Joined CDS, CAPF",
     image: imgp
   },
   {
     text: "The classes were really engaging and helped boost my understanding and interest in the subjects.",
     name: "Ananya Sharma",
-    tag: "Student",
+    
     class: "Course Joined CDS, CAPF",
     image: imgp
   }
@@ -97,7 +97,7 @@ const TestimonialSlider = () => {
               <img src={t.image} alt={t.name} className="testimonial-avatar" />
               <div>
                 <div className="testimonial-name">
-                  {t.name} <span className="tag">{t.tag}</span>
+                  {t.name}
                 </div>
                 <div className="testimonial-class">{t.class}</div>
               </div>

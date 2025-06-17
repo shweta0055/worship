@@ -46,7 +46,7 @@ background-color: #F8FBFE;
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 2rem;
-  color: #004D9D;
+  color: #000;
 }
 
 .testimonial-card {
@@ -91,14 +91,7 @@ background-color: #F8FBFE;
   color: #666;
 }
 
-.tag {
-  background-color: #ff5c5c;
-  color: white;
-  font-size: 0.7rem;
-  padding: 0.2rem 0.5rem;
-  border-radius: 10px;
-  margin-left: 0.5rem;
-}
+
 
 /* Custom Arrows */
 .custom-arrow {
@@ -190,6 +183,14 @@ background-color: #F8FBFE;
 }
 
 .tag {
+  background-color: #ff5c5c;
+  color: white;
+  font-size: 0.7rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 10px;
+  margin-left: 0.5rem;
+}
+  .tag {
   background-color: #ff5c5c;
   color: white;
   font-size: 0.7rem;

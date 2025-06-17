@@ -32,9 +32,8 @@ const FAQ = () => {
   };
 
   return (
-    <div className="faq-container">
+    <div className="faq-container mt-5">
       <h2>FAQs of the Course</h2>
-      <p className="faq-subtext">Faq paragraph text</p>
       {faqData.map((faq, index) => (
         <div className="faq-item" key={index}>
           <div className="faq-question" onClick={() => toggleFAQ(index)}>
