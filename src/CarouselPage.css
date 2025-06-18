@@ -40,14 +40,14 @@ h2{
     display: block;
     color: #000911;
     transition: .2s;
-    border: 3px solid yellow;
+    border: 3px solid #fec73b!important;
     border-radius: 15px;
 
     padding: 0.5rem 1rem 0.5rem 1rem;
     font-weight: 500;
     font-size: 32px;
     box-shadow: 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color:yellow;
+    background-color:#fec73b;
 }
 .lato-bold {
   font-family: "Lato", sans-serif;
@@ -304,7 +304,7 @@ strong {
 
 .blue-badge {
   background-color: #fec73b;
-  color: white;
+  color: #000;
   padding: 4px 10px;
   border-radius: 20px;
   font-weight: 600;
@@ -336,7 +336,7 @@ strong {
 
 .apply-button {
   background-color: #fec73b;
-  color: #fff;
+  color: #000;
   padding: 3px 56px 8px;
   font-size: 25px;
   border: none;
@@ -344,6 +344,7 @@ strong {
   cursor: pointer;
   font-weight: 600;
   margin-top: 30px;
+  box-shadow: 0.5rem 0.3rem rgba(0, 0, 0, 0.15); 
 }
 
 .apply-button:hover {
@@ -401,6 +402,23 @@ strong {
   .course-img{
   display: flex;
   justify-content: center;
+}
+.stats-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 38px;
+  flex-wrap: wrap;
+}
+.blue-badge {
+  background-color: #fec73b;
+  color: #000;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 8px;
+  margin-left: 10px;
 }
 }
 

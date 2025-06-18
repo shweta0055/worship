@@ -12,7 +12,7 @@ const Navbar = () => {
                         <Link className="navbar-brand logo-txt" to="/" ><span className='top-text' style={{ color: '#004d9d' }}>WORSHIP</span> ACADEMY</Link>
                     
                     </div>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"  aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     {/*<img src={logo} /> means */}

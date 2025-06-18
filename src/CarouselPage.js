@@ -26,9 +26,10 @@ function CarouselPage() {
                   Lakshya – UPSC CAPF AC Foundation Course 2026{" "}
                 </h1>
                 <p className="p-text">
-                  Are you dreaming of wearing the stars and serving India as a CAPF Assistant Commandant? Lakshya CAPF 2026 is your complete 360° preparation program – designed for aspirants starting from scratch.
+                  Looking for the <strong>CAPF AC Coaching</strong> that truly sets you on the path to success? You’ve come to the right place. Your journey to becoming an Assistant Commandant begins here. The dream of wearing the stars and serving the nation starts with this very first step.
 
-<p className="p-text mt-2"> Whether you're in college or a recent graduate, this foundation batch is structured to guide you step-by-step until you crack the exam.</p>
+<p className="p-text mt-2">
+  Our <strong>UPSC CAPF AC 2026 Foundation Course</strong>  is meticulously designed for complete 360° preparation and structured to guide aspirants in a step-by-step manner. Whether you’re a college student or a recent graduate, this course is suitable for helping you build a strong foundation from scratch.</p>
                 </p>
                 <div className="d-md-flex course-banner-btn gap-5 mt-5">
                   <button
@@ -63,25 +64,25 @@ function CarouselPage() {
         </div>
       </div>
       <h2 className="mt-5 text-center " style={{color:'#000'}}>Trusted by Candidates Nationwide</h2>
-      <p className="text-center">Worship Academy delivers expert-led preparation with quality content,<br /> personal support, and results that speak for themselves.</p>
+      <p className="text-center">Students from all over India trust <strong> Worship Academy</strong> for their CAPF AC exam preparation.<br />  Worship Academy is the <strong>best CAPF AC coaching in Delhi,</strong> helping aspirants get closer to their dream of becoming an Assistant Commandant.</p>
       
       <div className="stats-section">
       <div className="stat-card">
         <img src={download} alt="Downloads" />
-        <h2>150+ Million</h2>
-        <p>downloads</p>
+        <h2>1000+ Students</h2>
+        <p>Community</p>
       </div>
 
       <div className="stat-card">
         <img src={training} alt="App Rating" />
-        <h2>4.7+ Star</h2>
-        <p>app rating</p>
+        <h2>40+ Selected</h2>
+        <p>Candidates</p>
       </div>
 
       <div className="stat-card">
         <img src={feedback} alt="Cities" />
-        <h2>1701+ Cities</h2>
-        <p>worldwide</p>
+        <h2>4.7+ Star</h2>
+        <p>App Rating</p>
       </div>
     </div>
 
@@ -92,24 +93,31 @@ function CarouselPage() {
 
   <div className="milestone-content">
     <h2 style={{color:'#000'}}>UPSC CAPF AC Course Highlights</h2>
-    <p>This milestone covers essential digital marketing strategies, audience research, and campaign execution alongside mastering website creation with WordPress. Learners will develop market insights, craft value-driven strategies, and build optimized, professional websites that align with marketing objectives.</p>
+    <p>The <strong>UPSC CAPF AC Foundation Course</strong> is designed to equip aspirants with knowledge, guidance and strategies required to excel in the Central Armed Police Forces Assistant Commandant Examination. This comprehensive course ensures structured learning and in-depth coverage of the CAPF AC exam syllabus.
+</p>
+<p>The curriculum and study material are set module-wise to cover all the topics of Paper 1 and Paper 2 in a simplified and organized manner. This approach helps aspirants grasp concepts easily with better retention. With expert faculty and personal mentorship, we ensure a smooth and effective learning experience.
+</p>
+<p>Here’s a detailed breakdown of what our <strong> CAPF AC Foundation Course </strong> offers:
+</p>
 
     <div className="modules">
       
       <div className="module shadow">
         <h3 className="module-header">Complete Syllabus Coverage</h3>
         <ul>
-          <li>Paper 1: General Ability & Intelligence (GS + Reasoning + Aptitude)</li>
-          <li>Paper 2: Essay, Report Writing, Precis & English Language</li>
+          <li><strong>Paper 1:</strong> General Ability & Intelligence (GS + Reasoning + Aptitude)</li>
+          <li><strong>Paper 2:</strong> Essay, Report Writing, Precis & English Language</li>
+          <li>Interview + Personality Test Training (Post Written)</li>
+          <li>Physical Efficiency Test (PET) Guidance</li>
         </ul>
         
       </div>
 
       <div className="module shadow">
-        <div className="module-header">Top-Notch Faculty</div>
+        <div className="module-header">Experienced Faculty</div>
         <ul>
-          <li>Learn from experienced educators, UPSC experts & Retired CAPF Officers</li>
-          <li>Expert-led sessions designed for conceptual clarity and exam orientation</li>
+          <li>Learn from experienced educators and UPSC Experts </li>
+          <li>Gain guidance from Retd. CAPF Officers</li>
         </ul>
         
       </div>
@@ -118,8 +126,8 @@ function CarouselPage() {
       <div className="module shadow">
         <div className="module-header">Comprehensive Study Material</div>
         <ul>
-          <li>Printed Notes, Practice Booklets, Essay Templates & MCQ Sets</li>
-          <li>Monthly Current Affairs Magazine – crisp, relevant & exam-focused</li>
+          <li>Printed Notes, Practice Booklets, Essay Templates and MCQ Sets</li>
+          <li>Crisp, monthly and exam-focused Monthly Current Affairs Magazine</li>
         </ul>
         
       </div>
@@ -130,29 +138,30 @@ function CarouselPage() {
     <div className="modules">
       
       <div className="module shadow">
-        <h3 className="module-header">Complete Syllabus Coverage</h3>
+        <h3 className="module-header">Smart Testing System</h3>
         <ul>
-          <li>Paper 1: General Ability & Intelligence (GS + Reasoning + Aptitude)</li>
-          <li>Paper 2: Essay, Report Writing, Precis & English Language</li>
+          <li>Weekly MCQ Tests for Paper 1 & Monthly Topics for Paper 2</li>
+          <li>Full-Length Mock Tests with detailed feedback</li>
         </ul>
         
       </div>
 
       <div className="module shadow">
-        <div className="module-header">Top-Notch Faculty</div>
+        <div className="module-header">Personal Mentorship</div>
         <ul>
-          <li>Learn from experienced educators, UPSC experts & Retired CAPF Officers</li>
-          <li>Expert-led sessions designed for conceptual clarity and exam orientation</li>
+          <li>Personalized 1-on-1 Guidance</li>
+          <li>Dedicated doubt-solving support via Telegram/WhatsApp</li>
         </ul>
         
       </div>
 
   
       <div className="module shadow">
-        <div className="module-header">Comprehensive Study Material</div>
+        <div className="module-header">Modes of Learning</div>
         <ul>
-          <li>Printed Notes, Practice Booklets, Essay Templates & MCQ Sets</li>
-          <li>Monthly Current Affairs Magazine – crisp, relevant & exam-focused</li>
+          <li>Offline: Delhi Centre (GTB Nagar, New Delhi)</li>
+          <li>Online: Live + Recorded classes accessible across India</li>
+          <li>Bilingual Mode: Hindi + English</li>
         </ul>
         
       </div>
@@ -215,7 +224,7 @@ function CarouselPage() {
       <div className="d-flex row gap-3 justify-content-center">
         <div className=" fee-container left">
           <div className="cohort text-center">
-            <h3>UPCS CAPF AC Foundation Online Batch</h3>
+            <h3>UPCS CAPF AC Foundation <br /> Offline Batch</h3>
           </div>
 
           <div className="discount">
@@ -242,7 +251,7 @@ function CarouselPage() {
 
         <div className="fee-container right">
           <div className="cohort text-center">
-            <h3>UPCS CAPF AC Foundation Offline Batch</h3>
+            <h3>UPCS CAPF AC Foundation <br /> Online Batch</h3>
           </div>
 
           <div className="discount">
@@ -272,11 +281,19 @@ function CarouselPage() {
     </div>
 
     <div className="container mt-5">
-      <h2>Why Join CAPF AC Foundation Course by Us?</h2>
-      <p>The digital marketing industry is growing at a fast pace. This field has become a booming career today and the demand for skilled online marketers will increase all the more in the coming years.</p>
-      <p>If you develop the essential skills, you can make the most out of this growing field and make a great career. At WsCube Tech, we offer the best online digital marketing course in India with certificate. Throughout the years, we have understood the expectations of the learners and created the curriculum accordingly. This makes us the best platform in India for digital marketing course online</p>
-      <p>Whether you are a college learner, recent graduate, job seeker, existing digital marketer, freelancer, business owner, or someone looking to grow in this field, then our strategic online course on digital marketing is for you</p>
-      <p>With this course, you can become a Digital Marketing Manager, SEO Expert, PPC Specialist, Content Marketer, YouTube Manager, Social Media Manager, or even start your own agency.</p>    
+      <h2>Why Choose Us for the CAPF AC Foundation Course?</h2>
+      <p><strong>Worship Academy</strong> comes with many strengths and those are enough to help students achieve success in the CAPF AC exam. Some of these are enriched course curriculum, updated study material, experienced faculty, affordable pricing and more.
+</p>
+      <p>Our <strong> CAPF AC Foundation Coaching</strong> is available in different modes. Let’s have a look at both the modes:</p>   
+      <h3>Offline CAPF AC Coaching in Delhi</h3>
+      <p><strong>Worship Academy</strong> is widely considered the <strong> best coaching for CAPF AC in Delhi</strong> and across India. Our offline centre is located in <strong> GTB Nagar, New Delhi</strong>,  where all classes are conducted. </p> 
+      <p>The classes are taken by highly experienced faculty who have the same background as CAPF or relevant experience. The batch size is optimal, ensuring that every student doesn’t face any difficulty in learning and gets proper attention.</p>
+
+      <h3>Online CAPF AC Coaching</h3>
+      <p>We also provide <strong> online CAPF AC Coaching</strong> apart from offline coaching. This is ideal for students who cannot attend classes in offline mode and want to prepare from their homes. We provide Live + recorded classes as part of our <strong> CAPF AC Foundation Course</strong>.</p>
+
+      <p>Our <strong> dedicated mobile App</strong> allows students to explore online courses and attend online classes. Worship Academy provides the <strong> best online CAPF AC coaching</strong>, as it has a well-structured Learning Management System (LMS). Study material and tests can all be accessed directly from the application itself.
+</p>
     
     </div>
     

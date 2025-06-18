@@ -3,24 +3,28 @@ import './Faq.css';
 
 const faqData = [
   {
-    question: "What is digital marketing course?",
-    answer: "A digital marketing course is skill-based training that helps you learn several in-demand skills like SEO, SMM, Google Ads, PPC, YouTube Marketing, Email Marketing, Content Marketing, and much more. When you do this course from the best digital marketing institute in India, like WsCube Tech, it helps you kickstart a thriving career and find high-paying jobs."
+    question: "Which coaching is best for CAPF AC?",
+    answer: "Worship Academy is considered one of the top CAPF AC Coaching in Delhi. It offers the CAPF foundation course in both offline and online modes."
   },
   {
-    question: "Are the classes live or recorded?",
-    answer: "The classes are both live and recorded, so you can review them anytime."
+    question: "What is the fee for CAPF AC Coaching?",
+    answer: "The fee structure for the offline CAPF Foundation course is Rs…….., and for the online CAPF AC Foundation course is Rs……."
+  },
+  {
+    question: "Is there any refund policy?",
+    answer: "We don’t have a standard refund policy. However, if a student is not satisfied after attending classes for one week, we do offer a refund option in such cases."
   },
   {
     question: "What if I miss a live class?",
-    answer: "You can watch the recorded session later at your convenience."
+    answer: "All classes in this course are conducted live. However, recordings are also provided for revision or if you miss a session."
   },
   {
-    question: "What if my queries or doubts are not solved during a live class?",
-    answer: "You can ask your questions in the doubt forum or during one-on-one sessions."
-  },
-  {
-    question: "Will I receive a digital marketing course certificate on completion of training?",
+    question: "Are the classes live or recorded?",
     answer: "Yes, you'll receive a certificate after successful completion of the course."
+  },
+  {
+    question: "Are there any EMI Options?",
+    answer: "Yes, EMI options are available. To know more, please contact our course advisor for details."
   }
 ];
 
@@ -33,7 +37,7 @@ const FAQ = () => {
 
   return (
     <div className="faq-container mt-5">
-      <h2>FAQs of the Course</h2>
+      <h2>FAQs: UPSC CAPF AC Coaching</h2>
       {faqData.map((faq, index) => (
         <div className="faq-item" key={index}>
           <div className="faq-question" onClick={() => toggleFAQ(index)}>
