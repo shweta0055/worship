@@ -8,7 +8,7 @@ const faqData = [
   },
   {
     question: "What is the fee for CAPF AC Coaching?",
-    answer: "The fee structure for the offline CAPF Foundation course is Rs…….., and for the online CAPF AC Foundation course is Rs……."
+    answer: "The fee structure for the offline CAPF Foundation course is Rs...., and for the online CAPF AC Foundation course is R....."
   },
   {
     question: "Is there any refund policy?",
